@@ -180,10 +180,12 @@ options:
   env_vars: []
 ports:
   8080/tcp: 8080
+  3003/tcp: 3003
   5432/tcp: null
   6379/tcp: null
 ports_description:
   8080/tcp: Immich
+  3003/tcp: Machine Learning
   5432/tcp: Postgresql DB
   6379/tcp: Redis DB
 image: fabioogaravini/hassio-immich
